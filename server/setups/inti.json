@@ -1,0 +1,51 @@
+{
+  "geometry": "inti",
+  "shapeMapping": "inti",
+  "lights": 1296,
+  "outputDevices": {
+    "ether1": {
+      "type": "udp",
+      "params": {
+        "numberOfLights": 432,
+        "ip": "192.168.1.2",
+        "udpPort": 2222
+      }
+    },
+    "ether2": {
+      "type": "udp",
+      "params": {
+        "numberOfLights": 432,
+        "ip": "192.168.1.4",
+        "udpPort": 4444
+      }
+    },
+    "ether3": {
+      "type": "udp",
+      "params": {
+        "numberOfLights": 432,
+        "ip": "192.168.1.6",
+        "udpPort": 6666
+      }
+    }
+  },
+  "lightsToDevicesMapping": [
+    {
+      "from": 0,
+      "to": 432,
+      "baseIndex": 0,
+      "deviceName": "ether1"
+    },
+    {
+      "from": 432,
+      "to": 864,
+      "baseIndex": 0,
+      "deviceName": "ether2"
+    },
+    {
+      "from": 864,
+      "to": 1296,
+      "baseIndex": 0,
+      "deviceName": "ether3"
+    }
+  ]
+}
