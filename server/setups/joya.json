@@ -1,7 +1,7 @@
 {
   "geometry": "joya",
   "shapeMapping": "joya",
-  "lights": 900,
+  "lights": 1350,
   "outputDevices": {
     "serial1": {
       "type": "serial",
