@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "warroLight": {
-    "setup": "mate"
+    "setup": "joya"
   },
   "keywords": [],
   "author": "Pampa Warro",
